@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 50%;
+    height: 50%;
+    border: 2px solid blue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+#btn1,#btn2,#btn3{
+    width: 200px;
+    padding: 5px;
+}
+.para{
+    border: 1px solid red;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}

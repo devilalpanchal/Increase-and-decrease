@@ -27,9 +27,12 @@ Input.addEventListener('input',()=>{
     p.innerHTML=value;
     count= value
 })
+
+
 btn4.addEventListener('input',()=>{
     let value = input.value;
     let num = +value;
+    count = value
     p.innerHTML=value;
     count= value
 })

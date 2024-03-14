@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -16,12 +16,13 @@
         <input type="number" id="Firstvalue">
         <label for="">Enter Second Number</label>
         <input type="number" id="Secondvalue">
-        Result is:<output id="result" placeholder="Result-Here"></output>
-        <div class="main2">
-            <button class="btn" onclick="Add">+</button>
-            <button class="btn" onclick="Sub">-</button>
-            <button class="btn" onclick="Mul">*</button>
-            <button class="btn" onclick="Div">/</button>
+
+        Result is:<p id="result" placeholder="Result-Here"></p>
+        <div class="btn-container">
+            <button id="plus" class="btn" >+</button>
+            <button id="subs" class="btn" onclick="Sub">-</button>
+            <button id="mult" class="btn" onclick="Mul">*</button>
+            <button id="devide" class="btn" onclick="Div">/</button>
         </div>
     </div>
     <h4>Devilal Panchal</h4>
